@@ -1,0 +1,51 @@
+html, body {
+    height: 100%;
+}
+body {
+    color: #fefefe;
+    font-family: 'Open Sans', sans-serif;
+}
+.avatar {
+    border-radius: 50%;
+    border: 3px solid #FFF;
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.center {
+    text-align: center;
+}
+
+.bg_overlay {
+    background-image: url("../images/overlay-pattern.png") !important;
+    background-repeat: repeat;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.main-bg, .main-bg img {
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -999998;
+    position: absolute;
+}
+
+.vertical-align {
+  position: relative;
+  top: 40%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+h1 {
+
+}

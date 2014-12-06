@@ -10,5 +10,5 @@ sitemap.xml
 *.log
 wp-content/cache/
 wp-content/backups/
-sitemap.xml
+.idea
 sitemap.xml.gz
